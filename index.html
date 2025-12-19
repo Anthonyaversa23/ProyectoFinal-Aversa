@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Pedidos - Vita Café</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Simulador de pedidos</h1>
+        <p class="subtitulo">Armá tu compra como si estuvieras en Vita Café</p>
+        <h2>
+            Este simulador permite calcular el total de un pedido en Vita Café.
+            El usuario puede elegir productos, indicar cantidades y finalizar la compra.
+        </h2>
+    </header>
+
+    <section class="card">
+        <h2>Elegí tus productos</h2>
+
+        <label for="productoSelect">Producto</label>
+        <select id="productoSelect"></select>
+
+        <label for="cantidadInput">Cantidad</label>
+        <input type="number" id="cantidadInput" min="1" value="1">
+
+        <button id="agregarBtn">Agregar al carrito</button>
+    </section>
+
+    <section class="card">
+        <h2>Carrito</h2>
+
+        <ul id="listaCarrito"></ul>
+
+        <div class="totalBox">
+            <h3 id="total">Total: $0</h3>
+        </div>
+
+        <button id="finalizarBtn">Finalizar compra</button>
+        <button id="vaciarBtn" class="danger">Vaciar carrito</button>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Vita Café — Simulador de pedidos</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

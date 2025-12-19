@@ -1,0 +1,100 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #FFF8EE;
+    margin: 0;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 8px;
+}
+
+.subtitulo {
+    color: #555;
+    font-size: 1rem;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    border-top: 6px solid #FFB36B;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+select,
+input[type="number"] {
+    width: 100%;
+    margin-top: 6px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #FFC68A;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 15px;
+    padding: 14px;
+    border: none;
+    background: #FF9E3D;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background: #FF8A18;
+}
+
+.danger {
+    background: #FF5C5C;
+}
+
+.danger:hover {
+    background: #E54848;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #FFE9CF;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border-left: 6px solid #FF9E3D;
+}
+
+.totalBox {
+    margin-top: 15px;
+    text-align: right;
+}
+
+footer {
+    margin-top: 40px;
+    color: #888;
+}

@@ -1,0 +1,11 @@
+[
+    { "nombre": "Torta de fiambre", "precio": 110 },
+    { "nombre": "Medialuna", "precio": 90 },
+    { "nombre": "Pascualina", "precio": 110 },
+    { "nombre": "Scone", "precio": 20 },
+    { "nombre": "Cheesecake", "precio": 150 },
+    { "nombre": "Café", "precio": 90 },
+    { "nombre": "Jugo de Naranja", "precio": 90 },
+    { "nombre": "Jugo de Manzana", "precio": 90 },
+    { "nombre": "Agua", "precio": 80 }
+]
